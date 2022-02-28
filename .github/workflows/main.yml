@@ -1,5 +1,7 @@
 name: TestCICD Pipeline UCCU
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 jobs:
