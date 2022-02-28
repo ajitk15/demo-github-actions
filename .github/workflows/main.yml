@@ -54,8 +54,8 @@ jobs:
         mvn -X package deploy -DmuleDeploy \ 
          -Danypoint.env=Sandbox \
          -Danypoint.appName=demo-github-actions \
-         -Danypoint.username=${{ secrets.ANYPOINT_USERNAME }} \
-         -Danypoint.password=${{ secrets.ANYPOINT_PASSWORD }} \
+         -Danypoint.username=ajitk15mar2022 \
+         -Danypoint.password=Pollaaji#1 \
          -Danypoint.muleVersion=4.4.0 \
          -Danypoint.region=us-west-1 \
          -Danypoint.workers=1
