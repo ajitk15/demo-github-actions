@@ -59,4 +59,3 @@ jobs:
         -Danypoint.muleVersion=4.4.0 \ 
         -Danypoint.region=us-west-1 \ 
         -Danypoint.workers=1
-		
