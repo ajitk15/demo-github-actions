@@ -51,7 +51,7 @@ jobs:
         PASSWORD: ${{ secrets.ANYPOINT_PASSWORD }}
       run: |
         artifactName=$(ls *.jar | head -1)
-        mvn clean package deploy -DmuleDeploy \ 
+        mvn -X package deploy -DmuleDeploy \ 
          -Danypoint.env=Sandbox \
          -Danypoint.appName=demo-github-actions \
          -Danypoint.username=${{ secrets.ANYPOINT_USERNAME }} \
