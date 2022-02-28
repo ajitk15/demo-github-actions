@@ -1,4 +1,4 @@
-name: Demo CICD Pipelines
+name: Demo CICD Pipeline
 on:
   push:
     branches: [main]
